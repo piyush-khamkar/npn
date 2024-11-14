@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="solarSystem"></div>
+    <div id="solarSystem">
+        <canvas id="canvas" width="640" height="480"></canvas>
+    </div>
     <div id="controls">
         <label>Speed: <input id="speedInput" type="range" min="0.1" max="10" value="1" step="0.1"></label>
         <button id="pauseButton">Pause</button>
@@ -15,6 +17,7 @@
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </body>
 </html>
+
