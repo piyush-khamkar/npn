@@ -1,5 +1,5 @@
 // Import necessary modules
-import * as THREE from 'three';
+import * as THREE from './threejs/build/three.module.js'; // Relative path
 
 // Global Variables
 let scene, camera, renderer, controls, clock;
