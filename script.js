@@ -1,4 +1,4 @@
-import * as THREE from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js';
+import * as THREE from './threejs/build/three.module.js';
 
 // Global Variables
 let scene, camera, renderer, controls, clock;
