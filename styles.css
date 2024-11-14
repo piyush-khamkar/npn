@@ -1,0 +1,42 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+#solarSystem {
+    width: 100vw;
+    height: 100vh;
+}
+
+#controls {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(0,0,0,0.5);
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+#controls label {
+    margin-right: 10px;
+}
+
+#controls button {
+    margin-left: 20px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #444;
+    color: white;
+    cursor: pointer;
+}
+
+#controls button:hover {
+    background-color: #666;
+}
