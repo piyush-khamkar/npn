@@ -97,11 +97,12 @@ function animate() {
 // Initialize and Animate
 init();
 animate();
-
-// Window Resize Handler
 // Window Resize Handler
 window.addEventListener('resize', () => {
     camera.aspect = window.innerWidth / window.innerHeight;
     camera.updateProjectionMatrix();
     renderer.setSize(window.innerWidth, window.innerHeight);
+    // Optional: Adjust camera position to maintain optimal view
+    camera.position.z = window.innerHeight / 2;
 });
+
