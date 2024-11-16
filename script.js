@@ -1,4 +1,4 @@
-import * as THREE from './threejs/build/three.module.js';
+import * as THREE from 'https://unpkg.com/three@latest/build/three.module.js';
 
 // Global Variables
 let scene, camera, renderer, controls, clock;
